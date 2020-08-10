@@ -1,0 +1,3 @@
+# Libreria apoyo jsonbeans
+
+Proporciona una implementación de [es.lanyu.commons.servicios.entidad.CargadorIdentificables](https://javadoc.jitpack.io/com/github/lanyuestudio/lanyucommon/master-1fd881e6c8-1/javadoc/es/lanyu/commons/servicios/entidad/CargadorIdentificables.html) para los tipos `es.lanyu.Nombrable` utilizando [jsonbeans v0.9](https://github.com/EsotericSoftware/jsonbeans/releases/tag/0.9)/[libGDX](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/utils/Json.html) que es más ligero y nativo para libGDX.
