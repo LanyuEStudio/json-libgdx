@@ -1,11 +1,15 @@
 plugins {
-    id 'java'
     id 'java-library'
     id 'eclipse'
 }
-    
+
+group = 'es.lanyu'
+version = '1.0.4'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 project.ext {
-    lanyuVersion = "v1.0.0"
+    lanyuVersion = "1.0.4"
     jsonbeansVersion = "0.9"
 }   
 
@@ -14,12 +18,8 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
 dependencies {
-	api "com.github.LanyuEStudio:lanyuCommon:$lanyuVersion"
+	api "com.github.LanyuEStudio:lanyu-commons:$lanyuVersion"
 	api "com.github.EsotericSoftware:jsonbeans:$jsonbeansVersion"
 }
 
